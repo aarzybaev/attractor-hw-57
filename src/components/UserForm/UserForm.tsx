@@ -43,6 +43,7 @@ const UserForm: React.FC<Props> = ({onSubmit}) => {
           className="form-control"
           value={user.name}
           onChange={changeUser}
+          required
         />
       </div>
       <div className="form-group">
@@ -54,6 +55,7 @@ const UserForm: React.FC<Props> = ({onSubmit}) => {
           className="form-control"
           value={user.email}
           onChange={changeUser}
+          required
         />
       </div>
       <div className="form-group">
